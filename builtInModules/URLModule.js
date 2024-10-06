@@ -1,4 +1,4 @@
-const { hostname } = require('os');
+
 const uniformResourceLocator = require('url');
 
 const URL = 'http://localhost:8800/home.html?year=2018&month=feb'

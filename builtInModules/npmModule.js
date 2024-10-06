@@ -5,7 +5,7 @@ HTTP.createServer((request, response) => {
     // Display a desktop notification
     notifier.notify({
         title: 'Server Status',
-        message: 'Server created successfully on port number 1000'
+        message: 'Desktop Server created successfully on port number 1000'
     });
 
     response.write('Server is running and notifications are working!');
@@ -13,7 +13,7 @@ HTTP.createServer((request, response) => {
     response.end();
 }).listen(1000);
 
-// Notify when server starts
+// Notify when server starts 
 notifier.notify({
     title: 'Server Listening',
     message: 'Server is listening on port 1000'
